@@ -25,3 +25,4 @@ Fake files are named using this rule:
 while running `node nbfake.js --host=localhost --port=3000 --fake-dir=/home/projects/fakes --fake-prefix=fake_ --fake-suffix=.json --web-dir=/home/projects/web`, 
 a GET on _/crud/test?id=1&active=yes_ will search for JSON fake file named **/home/projects/fakes/fake_get_crud_test_id_1_active_yes.json**
 
+More infos and articles at [Gobo The Geek](https://www.gobothegeek.ch)
