@@ -1,28 +1,26 @@
 # NodeBackFake
-NodeBackFake is a node.js script used to simulate back-end calls.
 
-## Usage
-You obviously need node.js on your computer. Then run the command
-`node nbfake.js --host=<hostname> --port=<port> --fake-dir=<path to fake> --fake-prefix=<prefix> --fake-suffix=<suffix> --web-dir=<path to resources>`
+# Abandonnez GitHub
 
-## Parameters
-- --host: hostname or IP address to listen requests
-- --port: port to listen requests
-- --fake-dir: a folder that contains JSON files to fake responses
-- --fake-prefix: prefix of JSON filenames
-- --fake-suffix: suffix of JSON filenames
-- --web-dir: a folder that contains "normal" resources
+Ce projet a abandonné GitHub. ([Voir le site *Give Up GitHub* de Software Freedom Conservancy pour plus de détails](https://GiveUpGitHub.org).) 
 
-## JSON fake files naming convention
-Fake files are named using this rule:
-- the "fake-dir" folder name
-- the "fake-prefix"
-- the HTTP method name
-- URL with parameters 
-- the "fake-suffix"
+Vous pouvez maintenant trouver ce projet sur [Gobo The Geek](https://www.gobothegeek.ch/) à la place. 
 
-### Example: 
-while running `node nbfake.js --host=localhost --port=3000 --fake-dir=/home/projects/fakes --fake-prefix=fake_ --fake-suffix=.json --web-dir=/home/projects/web`, 
-a GET on _/crud/test?id=1&active=yes_ will search for JSON fake file named **/home/projects/fakes/fake_get_crud_test_id_1_active_yes.json**
+Toute utilisation du code de ce projet par GitHub Copilot, passé ou présent, se fait sans notre permission. Nous ne consentons pas à l'utilisation par GitHub du code de ce projet dans Copilot. 
 
-More infos and articles at [Gobo The Geek](https://www.gobothegeek.ch)
+Rejoignez-nous; vous pouvez [abandonner GitHub] (https://GiveUpGitHub.org) aussi!
+
+---
+
+# Give Up GitHub
+
+This project has given up GitHub.  ([See Software Freedom Conservancy's *Give Up  GitHub* site for details](https://GiveUpGitHub.org).)
+
+You can now find this project at [Gobo The Geek](https://www.gobothegeek.ch/) instead.
+
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission.  We do not consent to GitHub's use of this project's code in Copilot.
+
+Join us; you can [give up GitHub](https://GiveUpGitHub.org) too!
+
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
+
